@@ -35,10 +35,10 @@ header > a > i{
 }
 
  input[type="submit"]{
-    background-color: #b593e2;
+    background-color: #050505;
     color: rgb(255, 255, 255);
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 17px;
     padding: 10px;
     width: 160px;
     height: 40px;
