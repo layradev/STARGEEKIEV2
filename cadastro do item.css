@@ -64,6 +64,7 @@ main >form{
     padding: 10px;
     font-size: 20px;
 }
+
 main > form >input{
     font-size: 10px color#978585;
     background-color: #de95f1;
@@ -71,9 +72,9 @@ main > form >input{
     padding: 20px;
     text-align: center;
 }
-main > form>div{
-    background-color:black;
-    color: white;
+main > form > button{
+    background-color:#de95f1;
+    color: rgb(0, 0, 0);
     padding: 10px;
     width: 180px;
     align-items: center;
@@ -93,6 +94,7 @@ main > form > input[type="file"]{
 
 
 }
+
 footer{
     grid-area: r;
     background-color: #441A9D;

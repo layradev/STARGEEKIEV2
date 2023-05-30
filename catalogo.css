@@ -70,7 +70,9 @@ main > a{
 }
 
 .card img{
-    width: 100%;
+    width: 210px;
+    height: 150px;
+
 }
 
 .nome{

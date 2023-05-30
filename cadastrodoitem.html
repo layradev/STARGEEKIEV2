@@ -9,20 +9,27 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container">]
+        <button id="CADASTRAR"></button>
+
+        <div class="cards">
+        </div>
+
         <header>
             <img src="img/logo.png">
             <a href="inicial.html"><i class="bi bi-house"></i></a>
         </header>
         <main>
             <h1>CADASTRO DO ITEM</h1>
-            <form action="catalogo.html">
-                <label>Nome do título:</label>
-                <input type="text"name="" id="">
-                <label>Resumo:</label> 
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <input type="file" name="" id="">
-                 <input type="submit" value="ENTRAR">
+            <form>
+                <label for="Nome do título:">Nome do título:</label>
+                <input type="text"name="nome" id="nome">
+                <label for="Resumo">Resumo:</label> 
+                <textarea name="descricao" id="descricao" cols="30" rows="10"></textarea>
+                <input type="file" name="foto" id="foto">
+                 <button class="btncadastrar"> Cadastrar</button>
+                 <input type="hidden" id="idalterar">
+            </form>
         </main>
         <footer>
             <ul>
@@ -36,5 +43,6 @@
             <li><i class="bi bi-envelope"></i>moviesgeekie@hotmail.com</li>
          </ul>
         </footer>
+        <script src="cadastrodoitem.js"></script>
 </body>
 </html>
